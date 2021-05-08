@@ -22,10 +22,10 @@ const Routing = () => {
   })
   return (
     <Switch>
-      <Route exact path="/signup" component={Signup}></Route>
-      <Route exact path="/" component={LandingPage}></Route>
-      <Route exact path="/login" component={Login}></Route>
-      <Route exact path="/home" component={Dashboard}></Route>
+      <Route exact path="https://mail-reminder-app.herokuapp.com//signup" component={Signup}></Route>
+      <Route exact path=" https://mail-reminder-app.herokuapp.com/" component={LandingPage}></Route>
+      <Route exact path="https://mail-reminder-app.herokuapp.com//login" component={Login}></Route>
+      <Route exact path="https://mail-reminder-app.herokuapp.com//home" component={Dashboard}></Route>
     </Switch>
   );
 };
